@@ -1,0 +1,13 @@
+name = "FastFilter"
+uuid = "653c3d98-6753-4a84-aff1-fd2c2bd337b5"
+authors = ["Shuhei Kadowaki <aviatesk@gmail.com> and contributors"]
+version = "0.0.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
